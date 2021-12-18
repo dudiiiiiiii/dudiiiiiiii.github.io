@@ -65,6 +65,12 @@ body {
   font-family: "Italianno", Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: khaki;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
@@ -181,6 +187,26 @@ p {
   height: 10rem;
   line-height: 10rem;
   padding: 0;
+}
+
+.heading--h1 {
+  color: #eff0f3;
+  font-size: 6rem;
+}
+@media screen and (min-width: 768px) {
+  .heading--h1 {
+    font-size: 8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .heading--h1 {
+    font-size: 10rem;
+  }
+}
+.heading--h2 {
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
