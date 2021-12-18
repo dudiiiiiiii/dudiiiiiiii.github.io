@@ -262,4 +262,9 @@ p {
   margin: 0 auto;
 }
 
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem;
+}
+
 /*# sourceMappingURL=main.css.map */
