@@ -8,11 +8,21 @@
     <title>HTML</title>
 </head>
 <body>
-    <h1 class="heading--h1">Lorem, ipsum dolor.</h1>
-    <h2 class="heading--h2">Lorem, ipsum dolor.</h2>
-    <a href="#">Link</a>
-    <a class="btn btn--green" href="#">Link</a>
-    <a class="btn btn--red btn--circle" href="#">Link</a>
+    <header class="site-header">
+        <div class="site-header__blackout blackout"></div>
+        <nav>
+            <ul class="site-header__nav nav">
+                <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
+                <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="#lokalizacja">Lokalizacja</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
+                
+            </ul>
+        </nav>
+        
+        <h1 class="heading--h1 site-header__h1">Restauracja Dolce Vita</h1>
+        <a href="#" class="btn btn--red btn--circle site-header__button">Menu</a>
+    </header>
     <script src="js/scripts.js"></script>
 </body>
 </html>
