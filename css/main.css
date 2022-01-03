@@ -258,7 +258,6 @@ p {
 .image-box__text {
   text-align: center;
   padding: 2rem;
-  color: #eff0f3;
   font-size: 1.6rem;
   cursor: pointer;
   font-family: Roboto, "sans-serif";
@@ -298,7 +297,13 @@ p {
   padding-top: 3rem;
 }
 .site-section--bg-color {
-  background-color: #582e1f;
+  background-color: #504533;
+}
+
+.site-footer {
+  background-color: #201b13;
+  height: 40vh;
+  color: #eff0f3;
 }
 
 .text-color-white {
