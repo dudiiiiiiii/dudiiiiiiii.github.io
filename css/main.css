@@ -241,14 +241,14 @@ p {
   box-shadow: 0 0 2.5rem grey;
 }
 .image-box__image {
-  background: url("../../assets/img/one.jpg") center/cover;
+  background: url("../assets/img/one.jpg") center/cover;
   height: 22rem;
   display: block;
   border-top-left-radius: 0.6rem;
   border-top-right-radius: 0.6rem;
 }
 .image-box__image--next {
-  background: url("../../assets/img/two.jpeg") center/cover;
+  background: url("../assets/img/two.jpeg") center/cover;
 }
 @media screen and (min-width: 768px) {
   .image-box__image {
@@ -316,7 +316,7 @@ p {
   cursor: pointer;
 }
 .social__item {
-  background: url("../../assets/img/sprites_socials.png");
+  background: url("../assets/img/sprites_socials.png");
   width: 43px;
   height: 42px;
   overflow: hidden;
@@ -358,7 +358,7 @@ p {
 .site-header {
   height: 100vh;
   position: relative;
-  background: url("../../assets/img/start.jpeg") center/cover fixed;
+  background: url("../assets/img/start.jpeg") center/cover fixed;
 }
 .site-header__blackout {
   position: absolute;
@@ -393,7 +393,7 @@ p {
 }
 
 .site-contact {
-  background: url(../../assets/img/contact.jpeg) center/cover fixed;
+  background: url(../assets/img/contact.jpeg) center/cover fixed;
   color: #eff0f3;
   position: relative;
   height: 85vh;
