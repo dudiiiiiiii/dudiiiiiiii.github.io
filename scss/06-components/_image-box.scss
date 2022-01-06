@@ -21,6 +21,19 @@
             background: url('../assets/img/two.jpeg') center/cover;
         }
 
+        &--first {
+            background: url('../assets/img/1_min.jpg') center/cover;
+        }
+        &--second {
+            background: url('../assets/img/2_min.jpg') center/cover;
+        }
+        &--third {
+            background: url('../assets/img/3_min.jpg') center/cover;
+        }
+        &--forth {
+            background: url('../assets/img/4_min.jpg') center/cover;
+        }
+
         @include medium {
             height: 16rem;
         }

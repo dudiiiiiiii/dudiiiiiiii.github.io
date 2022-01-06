@@ -250,6 +250,18 @@ p {
 .image-box__image--next {
   background: url("../assets/img/two.jpeg") center/cover;
 }
+.image-box__image--first {
+  background: url("../assets/img/1_min.jpg") center/cover;
+}
+.image-box__image--second {
+  background: url("../assets/img/2_min.jpg") center/cover;
+}
+.image-box__image--third {
+  background: url("../assets/img/3_min.jpg") center/cover;
+}
+.image-box__image--forth {
+  background: url("../assets/img/4_min.jpg") center/cover;
+}
 @media screen and (min-width: 768px) {
   .image-box__image {
     height: 16rem;
